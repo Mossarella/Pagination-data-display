@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+## Pagination data display : mini project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App] including 3 library. Axios, React data table and react-beautiful-dnd.
+
+You can view live version here 🤙 : https://datadisplay.mossarelladev.com/.
+
+Basic requirement checklist
+  - ✔️ A complete clone of Figma wireframe design. 
+  - ✔️ Data table with min width as 1024 px. And after that, overflow scroll X.
+  - ✔️ Sidebar that can remember its open/ close state by using localstorage.
+  - ✔️ Dummy user data, Fetching from an online free user API with Axios.
+  - ✔️ Display per page (25,50,75,100,all) and pagination. 
+  - ✔️ Filter, add, remove a column display and order it by easy drag and drop.
+
+Other improvement
+  - ⭐ Polish up and Added some QOL, Such as responsive navbar,sidebar, dropdown and some hover animation.
+  - ⭐ A sorting feature by simply clicking on column Heading. Descend and ascend by alphabetical and numerical order.
+
+Created by Mossarelladev, 2022.
+
+---
+
+
+# Getting Started with Create React App
 
 ## Available Scripts
 
