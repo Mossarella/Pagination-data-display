@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Arvo", serif;
+
+  font-family: "Inter", sans-serif;
+}
+
+p.mini{
+  font-size: 12px;
+}
+
+.icon {
+  height: 35px;
+  width: 35px;
+}
+
+.iconSmall {
+    min-width: 20px;
+    min-width: 20px;
+  height: 20px;
+  width: 20px;
+}
+.iconSmaller{
+  min-width: 13px;
+  min-width: 13px;
+height: 13px;
+width: 13px;
+}
+
+.icon:hover,.iconSmall:hover,.iconSmaller:hover {
+    color:#2d6ee5;
+}
+
+
+.rdt_Table .rdt_TableRow {
+  background-color: #f0f1f2;
+}
+.rdt_Table .rdt_TableRow:nth-child(2n) {
+  background-color: #ffffff;
+}
+.sc-ezOQGI{
+
+  margin-left: auto !important;
+
+  
+}
+
+
+.appear {
+  transition: all 150ms cubic-bezier(0.1, 0.7, 0.6, 0.9);
+  white-space: nowrap;
+}
+button,.dropdown-toggle:focus{
+    box-shadow: none !important;
+}
+
+.modal1{
+  min-width: 75%;
+  
+  height: 100%;
+  max-height: calc(100vh - 75px);
+
+}
+.modal1 .modal-body{
+  overflow: scroll;
+  max-height: 420px;
+}
+.modal2{
+  min-width: 50%;
+
+  height: 100%;
+  max-height: calc(100vh - 75px);
+
+}
+.modal2 .modal-body{
+  overflow: scroll;
+  max-height: 420px;
+}
+
+.border-dotted{
+  border-style: dashed;
+border-width: 2px;
+ }
+
+ .prevent-select {
+
+  user-select: none; 
+}
+/* .beUiVL{
+  position: sticky !important;
+  top:0 !important;
+  background-color: white !important;
+  z-index: 99999 !important;
+}
+.WQNxq{
+  contain:paint;
+  overflow-x: unset !important;
+  overflow-y: unset !important;
+} */
