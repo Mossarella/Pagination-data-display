@@ -66,6 +66,7 @@ button,.dropdown-toggle:focus{
 .modal1 .modal-body{
   overflow: scroll;
   max-height: 420px;
+  overflow-x: hidden;
 }
 .modal2{
   min-width: 50%;
@@ -77,6 +78,7 @@ button,.dropdown-toggle:focus{
 .modal2 .modal-body{
   overflow: scroll;
   max-height: 420px;
+  overflow-x: hidden;
 }
 
 .border-dotted{
